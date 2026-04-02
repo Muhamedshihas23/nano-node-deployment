@@ -1,23 +1,34 @@
 # Nano Node Deployment
 
-This project demonstrates the deployment and management of a Nano blockchain node using Docker in a Linux environment.
+This project demonstrates the deployment and management of a **Nano blockchain node** using **Docker in a Linux environment**.  
+The node is configured with persistent storage, exposed networking ports, and RPC communication for monitoring and validation.
 
-## Tech Stack
+---
+
+## 🚀 Tech Stack
 - Docker
-- Linux
+- Linux (Ubuntu)
 - Nano Blockchain
 - RPC
 - JSON
 - curl
+- CLI
 
-## Features
-- Containerized Nano node deployment
-- Persistent ledger storage
-- RPC communication
+---
+
+## 📌 Features
+- Dockerized Nano node deployment
+- Persistent ledger storage using volumes
+- RPC communication and validation
+- Peer-to-peer networking setup
 - Node synchronization monitoring
 - Log-based troubleshooting
+- Linux command-line management
 
-## Run Command
+---
+
+## ⚙️ Deployment Command
+
 ```bash
 docker run -d \
   --name nano-node \
